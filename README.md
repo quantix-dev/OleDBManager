@@ -28,6 +28,7 @@ NewRow.Item("Key") = "Value"
 ' Adding the row to the database
 MyNewDatabase.database.Rows.Add(NewRow) ' This adds the row to the internal table
 MyNewDatabase.Update() ' This will update the actual physical database
+```
 
 ### 2) **Deleting** a row 
 ```vb
